@@ -6,7 +6,7 @@
 }
 #home-wrapper {
     height: 100vh;
-    background-image: url('src/Images/home.webp');
+    background-image: url('../Images/home.webp');
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-position: center;
