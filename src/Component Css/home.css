@@ -107,9 +107,9 @@
        align-items: center;
     }  
     .banners div {
-        height: 120px;
+        height: 130px;
         margin: 1% 0;
         box-shadow: 1px 4px 3px 2px;
-        width: 120px;
+        width: 160px;
     }
 }
