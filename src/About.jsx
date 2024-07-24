@@ -6,7 +6,7 @@ function About() {
   return (<>
     <div id="about-wrapper">
       <div className="headings">
-      <h1>Our School History</h1>
+      <h1 className='ourschool'>Our School History</h1>
       <p>Founded in 1985, Springdale Public School has been dedicated to providing quality education and holistic development to students</p>
       </div>
       <div className="vission">

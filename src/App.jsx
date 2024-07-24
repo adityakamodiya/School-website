@@ -8,8 +8,8 @@ import Admissions from './Admissions'
 import Faculty from './Faculty'
 import Students from './Students'
 import Gallery from './Gallery'
-
-import Contact from './Contact'
+import Map from './Map'
+// import Contact from './Contact'
 function App() {
   return (
     <>
@@ -27,6 +27,7 @@ function App() {
       
       <Route path='Students'element={<Students/>}></Route>
       <Route path='Gallery'element={<Gallery/>}></Route>
+      <Route path='Address'element={<Map/>}></Route>
     </Routes>
     </BrowserRouter>
 

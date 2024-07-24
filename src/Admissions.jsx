@@ -12,8 +12,8 @@ function Admissions() {
       </div>
       <div className="admission-row1">
         <div className="admission-row1-left">
-          <p style={{textAlign:'justify',lineHeight:'40px'}}><span>Process: </span>Admission forms are available for download. Submit the completed form along with required documents at the school office.</p>
-          <p style={{textAlign:'justify',lineHeight:'40px'}}><span>Criteria: </span>Admission is based on merit and availability of seats. Entrance tests may be conducted for certain grades.</p>
+          <p ><span>Process: </span>Admission forms are available for download. Submit the completed form along with required documents at the school office.</p>
+          <p ><span>Criteria: </span>Admission is based on merit and availability of seats. Entrance tests may be conducted for certain grades.</p>
           
           <span>Important Dates</span>
           <ul>
@@ -32,8 +32,8 @@ function Admissions() {
        
             <h2 style={{textAlign:'center'}}>Prospective
             Parents & Students</h2>
-            <p style={{textAlign:'justify',lineHeight:'40px'}}>We believe in the power of partnership between home and school. Explore the various ways you can get involved in our school community and contribute to your child's education</p>
-            <p style={{textAlign:'justify',lineHeight:'40px'}}>Discover what it's like to be a student at our school. From engaging classes to exciting extracurricular activities, there's always something to look forward to.</p>
+            <p>We believe in the power of partnership between home and school. Explore the various ways you can get involved in our school community and contribute to your child's education</p>
+            <p>Discover what it's like to be a student at our school. From engaging classes to exciting extracurricular activities, there's always something to look forward to.</p>
 
          </div>
       </div>
