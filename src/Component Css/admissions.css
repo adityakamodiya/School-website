@@ -98,7 +98,10 @@ font-size: 20px;
     }
     .admission-row2 .admission-row2-right  p{
         
-            line-height: 31px;
+            line-height: 18px;
         
+    }
+    h2{
+        font-size: 21px;
     }
 }
