@@ -1,5 +1,6 @@
 import React from 'react'
 import './Component Css/admissions.css'
+import bottomimg from './Images/bottomimg.avif'
 function Admissions() {
   return (
 <>
@@ -39,7 +40,7 @@ function Admissions() {
 
     </div>
     <div className="bottomimg">
-      <img src="src/Images/bottomimg.avif" alt="" />
+      <img src={bottomimg} alt="" />
     </div>
 </>
   )
