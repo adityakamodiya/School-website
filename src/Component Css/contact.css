@@ -42,13 +42,13 @@ justify-content: center;align-items: center;
 form input{
     border-radius:5% ;
     border: none;
-    background-color: rgb(10, 13, 43);
+    background-color: #1f2028;
     /* padding: 5% 5%; */
-    padding: 2% 0;
+    padding: 4% 2%;
     margin: 2% 0%;
 }
 form textarea{
-    background-color:  rgb(10, 13, 43);;
+    background-color: #1f2028;
 height: 100px ;
 line-height: 150%;
 margin-top: 1%;

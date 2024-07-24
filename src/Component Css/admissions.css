@@ -3,7 +3,8 @@
     display: flex;justify-content: center;
     align-items: center;
     height: 700px;
-    background-color: rgb(202, 162, 162);
+    margin: 2% 0;
+    /* background-color: rgb(202, 162, 162); */
 
 
 }
@@ -29,14 +30,16 @@
 } 
 
 .admission-row1 .admission-row1-right{
-
+    box-shadow: 1px 5px 5px 1px;
+    border-radius: 5%;
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .admission-row2 .admission-row2-left{
-
+    box-shadow: 1px 5px 5px 1px;
+    border-radius: 5%;
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-position: center;
@@ -46,6 +49,10 @@
 .bottomimg img{
     height: 100%;
     width: 95%;
+    /* border-radius: 5%; */
+    /* margin: 3% 1%; */
+    box-shadow: 1px 5px 5px 1px;
+    border-radius: 5%;
 }
 .admission{
     background-image: url('../Images/Admissions.jpeg');
