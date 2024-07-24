@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#about-wrapper{
+    height: auto;
+    display: flex;
+    padding:  0% 13%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headings {
+    padding: 7% 0%;
+    width: 100%;
+    text-align: center;
+    /* background-color: wheat; */
+    
+}
+#about-wrapper h1{
+    font-size: 50px;
+    /* margin-top: 2%; */
+}
+#about-wrapper p{
+    
+    font-size: 20px;
+    margin:  0 1%  ;
+    text-align: justify;
+}
+
+.vission,.principal{
+    /* margin-top: 4%; */
+    height: 400px ;
+    /* border: 1px solid; */
+    width: 100%;
+    display: flex;
+}
+ .principal div ,.vission div{
+    display: flex;
+    padding: 0 2%;
+    justify-content: center;
+    text-align: justify;
+    /* align-items: center; */
+    flex-direction: column;
+    /* border: 1px solid; */
+    width: 50%;height: 100%;
+    line-height: 180%;
+} 
+.vission div p,.principal div p{
+    font-size: 18px;
+
+
+}
+.vission .Vright{
+    background-image: url('src/Images/vission.webp');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.principal .Pleft{
+    background-image: url('src/Images/principal.webp');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.vission div span,.principal div span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.vission div p span,.principal div p span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* THIS IS FOR ADDMISSIONS SECTION BOTTOM IMAGE   */
+.bottomimg{
+    width: 100%;
+    display: flex;justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: rgb(202, 162, 162);
+
+
+}
+.bottomimg img{
+    height: 100%;
+    width: 95%;
+}
