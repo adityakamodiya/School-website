@@ -30,6 +30,7 @@
 }
 .header ul li a{
     text-decoration: none;
+    color: #6b4040;
 }
 .header h2{
     width: 40%;
@@ -37,7 +38,7 @@
 
 @media screen and (max-width:500px) {
     .header {
-        padding: 1px 5%;
+        padding: 1px 1%;
     }
     .header .img {
         height: 40px;
