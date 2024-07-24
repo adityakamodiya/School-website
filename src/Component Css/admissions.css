@@ -96,12 +96,14 @@ font-size: 20px;
         line-height: 200%;
         list-style: none;
     }
-    .admission-row2 .admission-row2-right  p{
+    .admission-row2 .admission-row2-right  p,.admission-row1 .admission-row1-left  p{
         
-            line-height: 18px;
+            line-height: 13px;
+            font-size: 10px;
         
     }
     h2{
-        font-size: 21px;
+        font-size: 15px;
+        line-height: 15px;
     }
 }
