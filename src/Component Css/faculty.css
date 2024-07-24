@@ -33,3 +33,24 @@
 .cards p span{
     font-weight: 600;
 }
+@media screen and (max-width:500px) {
+    #faculty-wrapper {
+        height: auto;
+    }
+    #faculty-wrapper .cards {
+        height: 69px;
+        width: 90%;
+        border: none;
+        margin: 3% 0;
+    }
+    #faculty-wrapper .cards img {
+        height: 50px;
+        width: 50px;
+    }
+    #faculty-wrapper .cards p {
+        /* margin-left: 1%; */
+        line-height: 20px;
+
+        font-size: 10px;
+    }
+}
