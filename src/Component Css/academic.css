@@ -53,22 +53,37 @@
 } 
 .Social-Studies{
     background-image: url('../Images/socialstudies.jpg');
+    box-shadow: 1px 5px 5px 1px;
+    border-radius: 5%;
+    z-index: 1;
 }
 .science{
     background-image: url('../Images/science.jpeg');
+    box-shadow: 1px 5px 5px 1px;
+    z-index: 1;
+    border-radius: 5%;
 }
 .math{
     background-image: url('../Images/Math.jpeg');
+    box-shadow: 1px 5px 5px 1px;
+    border-radius: 5%;
+    z-index: 1;
 }
 .phyedu{
     background-image: url('../Images/phyedu.jpeg');
+    box-shadow: 1px 5px 5px 1px;z-index: 1;
+    border-radius: 5%;
 }
 .Teaching-Methodologies{
     background-image: url('../Images/TeachingMethodologies.png');
+    box-shadow: 1px 5px 5px 1px;z-index: 1;
+    border-radius: 5%;
 
 }
 .eduresources{
     background-image: url('../Images/eduresources.jpg');
+    box-shadow: 1px 5px 5px 1px;z-index: 1;
+    border-radius: 5%;
 
 }
 
