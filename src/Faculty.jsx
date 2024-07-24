@@ -13,6 +13,10 @@ export default function Faculty() {
 
   return (<>
     <div id="faculty-wrapper">
+      <div className="headings">
+      <h1>Our Faculties.</h1>
+      <p>Their responsibilities may include teaching and/or research, along with potential service duties.</p>
+       </div>
       <div className="cards">
       <img src={jhonsan} alt="" />
       <p> <span>Emily Johnson: </span>  English Teacher, M.A. in English, 10 years of teaching experience.      </p>
