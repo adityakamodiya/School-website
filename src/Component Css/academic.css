@@ -29,14 +29,14 @@
     text-align: justify;
 }
 
-.vission,.principal{
+.academics-row1,.academics-row2{
     /* margin-top: 4%; */
     height: 400px ;
     /* border: 1px solid; */
     width: 100%;
     display: flex;
 }
- .principal div ,.vission div{
+ .academics-row1 div ,.academics-row2 div{
     display: flex;
     padding: 0 2%;
     justify-content: center;
@@ -47,32 +47,49 @@
     width: 50%;height: 100%;
     line-height: 180%;
 } 
-.vission div p,.principal div p{
+.Social-Studies{
+    background-image: url('../Images/socialstudies.jpg');
+}
+.science{
+    background-image: url('../Images/science.jpeg');
+}
+.math{
+    background-image: url('../Images/Math.jpeg');
+}
+.phyedu{
+    background-image: url('../Images/phyedu.jpeg');
+}
+.Teaching-Methodologies{
+    background-image: url('../Images/TeachingMethodologies.png');
+
+}
+.eduresources{
+    background-image: url('../Images/eduresources.jpg');
+
+}
+
+.academics-row1 div p,.academics-row2 div p{
     font-size: 18px;
 
 
 }
-.vission .Vright{
-    background-image: url('../Images/vission.webp');
+.academics-row1 .academics-row1-right{
+
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.principal .Pleft{
-    background-image: url('../Images/principal.webp');
+.academics-row2 .academics-row2-left{
+
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.vission div span,.principal div span{
-    font-size: 22px;
-    font-weight: 600;
-}
-.vission div p span,.principal div p span{
+
+.academics-row1 div p span,.academics-row2 div p span{
     font-weight: 600;
     font-size: 20px;
 }
 
-/* THIS IS FOR ADDMISSIONS SECTION BOTTOM IMAGE   */

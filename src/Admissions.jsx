@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Component Css/admissions.css'
 function Admissions() {
   return (
 <>
@@ -8,8 +8,8 @@ function Admissions() {
       <h1>Admissions</h1>
       <p>Join our vibrant learning community! Our open enrollment process welcomes students of all backgrounds to apply and discover their potentia.</p>
       </div>
-      <div className="vission">
-        <div className="Vleft">
+      <div className="admission-row1">
+        <div className="admission-row1-left">
           <p style={{textAlign:'justify',lineHeight:'40px'}}><span>Process: </span>Admission forms are available for download. Submit the completed form along with required documents at the school office.</p>
           <p style={{textAlign:'justify',lineHeight:'40px'}}><span>Criteria: </span>Admission is based on merit and availability of seats. Entrance tests may be conducted for certain grades.</p>
           
@@ -22,11 +22,11 @@ function Admissions() {
             
           </ul>
         </div>
-        <div className="Vright"  style={{backgroundImage:'url(src/Images/Admissions.jpeg)'}}></div>
+        <div className="admission-row1-right admission"  ></div>
       </div>
-      <div className="principal">
-        <div className="Pleft"  style={{backgroundImage:'url(src/Images/prospective.avif)'}}></div>
-        <div className="Pright">
+      <div className="admission-row2">
+        <div className="admission-row2-left Prospective" ></div>
+        <div className="admission-row2-right">
        
             <h2 style={{textAlign:'center'}}>Prospective
             Parents & Students</h2>

@@ -1,6 +1,8 @@
 import React from 'react'
-import './Component Css/about.css'
+
+import './Component Css/academic.css'
 import Header from './Header'
+import science from './Images/science.jpeg'
 function Academics() {
   return (
     <>
@@ -10,8 +12,8 @@ function Academics() {
       <h1>ACADEMICS</h1>
       <p>Education is the main building block of a happy, fruitful, and productive life.A well-rounded schooling framework prepares children for the future. However, math, science, and geography alone won't set you up for real life.</p>
       </div>
-      <div className="vission">
-        <div className="Vleft">
+      <div className="academics-row1">
+        <div className="academics-row1-left">
           <p>
            <span> Social Studies</span></p>
           <ul>
@@ -22,11 +24,11 @@ function Academics() {
 
           </ul>
         </div>
-        <div className="Vright" style={{backgroundImage:'url(src/Images/socialstudies.jpg)'}}></div>
+        <div className="academics-row1-right Social-Studies" ></div>
       </div>
-      <div className="principal">
-        <div className="Pleft"style={{backgroundImage:'url(src/Images/science.jpeg)'}} ></div>
-        <div className="Pright">
+      <div className="academics-row2">    
+        <div className="academics-row2-left science" ></div>
+        <div className="academics-row2-right">
         <p><span> Science</span></p>
           <ul>
             <li>Explore hands-on experiments in our state-of-the-art science labs, where students bring scientific concepts to life through engaging, interactive activities.</li>
@@ -37,8 +39,8 @@ function Academics() {
           </ul>
         </div>
       </div>
-      <div className="vission">
-        <div className="Vleft">
+      <div className="academics-row1">
+        <div className="academics-row1-left">
           <p><span>
           Math</span></p>
           <ul>
@@ -49,11 +51,11 @@ function Academics() {
 
           </ul>
         </div>
-        <div className="Vright" style={{backgroundImage:'url(src/Images/Math.jpeg)'}}></div>
+        <div className="academics-row1-right math" ></div>
       </div>
-      <div className="principal">
-        <div className="Pleft" style={{backgroundImage:'url(src/Images/phyedu.jpeg)'}}></div>
-        <div className="Pright">
+      <div className="academics-row2">
+        <div className="academics-row2-left phyedu"></div>
+        <div className="academics-row2-right">
         <p><span>
         Physical Education</span></p>
           <ul>
@@ -65,8 +67,8 @@ function Academics() {
           </ul>
         </div>
       </div>
-      <div className="vission">
-        <div className="Vleft">
+      <div className="academics-row1">
+        <div className="academics-row1-left">
           <p><span>
           Teaching Methodologies</span></p>
           <ul>
@@ -77,11 +79,11 @@ function Academics() {
 
           </ul>
         </div>
-        <div className="Vright"style={{backgroundImage:'url(src/Images/TeachingMethodologies.png)'}}></div>
+        <div className="academics-row1-right Teaching-Methodologies"></div>
       </div>
-      <div className="principal">
-        <div className="Pleft"style={{backgroundImage:'url(src/Images/eduresources.jpg)'}}></div>
-        <div className="Pright">
+      <div className="academics-row2">
+        <div className="academics-row2-left eduresources"></div>
+        <div className="academics-row2-right"> 
         <p><span>
         Educational Resources</span></p>
           <ul>
