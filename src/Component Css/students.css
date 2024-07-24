@@ -1,0 +1,17 @@
+.students-wrapper div div p{
+    /* color: red; */line-height: 35px;
+}
+.students-wrapper div .Clubs-Activities{
+    background-image: url('../Images/clubs.webp');
+
+}
+.students-wrapper div .acheivments{
+    background-image: url('../Images/acheivments.png');
+
+}
+.acheivments,.Clubs-Activities{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

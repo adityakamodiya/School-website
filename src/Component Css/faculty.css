@@ -1,0 +1,31 @@
+#faculty-wrapper{
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#faculty-wrapper .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 120px;
+    width: 29%;
+    border: 1px solid;
+    /* margin: 0% 2%; */
+    border-radius: 5%;
+
+}
+#faculty-wrapper .cards img{
+    height: 100px ;width: 100px;
+    border-radius: 50%;
+}
+#faculty-wrapper .cards p{
+    margin-left: 1%;
+    line-height: 25px;
+    text-align:start ;
+    font-size: 18px;
+}
+.cards p span{
+    font-weight: 600;
+}

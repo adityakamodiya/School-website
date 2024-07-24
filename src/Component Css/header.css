@@ -5,9 +5,10 @@
 }
 .header {
     display: flex;
+    background: #f6f5f2;
     /* border: 1px solid; */
     justify-content: space-between;
-    padding: 0.3% 5%;
+    padding: 0.1% 5%;
 }
 .header .img {
     height: 80px;
@@ -25,8 +26,11 @@
 .header ul li {
     margin: 0%  3%;
     list-style: none;
+    font-size: 17px;
 }
-
+.header ul li a{
+    text-decoration: none;
+}
 .header h2{
     width: 40%;
 }

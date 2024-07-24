@@ -6,19 +6,20 @@
 #contact-wrapper {
     height: 200px;
     display: flex;
-    background-color: rgba(5, 2, 36, 0.7);
+    background: #f6f5f2;
     /* border: 1px solid; */
+
 }
 .left {
     /* height: 300px; */
-    color: wheat;
+    color: rgb(10, 13, 43);
     display: flex;
     /* border: 1px solid; */
     flex-direction: column;
     justify-content: center;
     text-align: justify;
     /* align-items: center; */
-    line-height: 280%;
+    line-height: 260%;
     padding: 1% 1%;
     width: 40%;
 }
@@ -33,21 +34,27 @@ display: flex;
 justify-content: center;align-items: center;
 }
 .right form{
+
     display: flex;
     flex-direction: column;
 }
 form input{
     border-radius:5% ;
     border: none;
+    background-color: rgb(10, 13, 43);
     /* padding: 5% 5%; */
     padding: 2% 0;
     margin: 2% 0%;
 }
 form textarea{
+    background-color:  rgb(10, 13, 43);;
 height: 100px ;
 line-height: 150%;
 margin-top: 1%;
 text-align: justify;
 padding: 1% 0;
 width: 200px;
+}
+form .submit{
+color: wheat;
 }

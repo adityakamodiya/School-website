@@ -14,8 +14,8 @@ function Header() {
         <li><Link to='/Academics'>Academics</Link></li>
         <li> <Link to='/Admissions'>Admissions</Link></li>
         <li><Link to='/Faculty'>Faculty</Link></li>
-        <li>Students</li>
-        <li>Gallery</li>
+        <li> <Link to='/Students'>Students</Link></li>
+        <li><Link to='/Gallery'>Gallery</Link></li>
     </ul>
 </div>
     </>

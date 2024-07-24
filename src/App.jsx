@@ -8,6 +8,7 @@ import Admissions from './Admissions'
 import Faculty from './Faculty'
 import Students from './Students'
 import Gallery from './Gallery'
+
 import Contact from './Contact'
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
       <Route path='/About us'element={<About/>}></Route>
       <Route path='Academics'element={<Academics/>}></Route>
       <Route path='Admissions'element={<Admissions/>}></Route>
+      
       <Route path='faculty'element={<Faculty/>}></Route>
+      
       <Route path='Students'element={<Students/>}></Route>
       <Route path='Gallery'element={<Gallery/>}></Route>
     </Routes>
