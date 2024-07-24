@@ -3,15 +3,22 @@
 }
 .students-wrapper div .Clubs-Activities{
     background-image: url('../Images/clubs.webp');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:5% ;
+    box-shadow: 1px 1px 1px 1px ;
 
 }
 .students-wrapper div .acheivments{
     background-image: url('../Images/acheivments.png');
-
-}
-.acheivments,.Clubs-Activities{
+    border-radius:5% ;
+    box-shadow: 1px 1px 1px 1px ;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
+

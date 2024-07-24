@@ -1,5 +1,6 @@
 import React from 'react'
 import './Component Css/students.css'
+import Contact from './Contact'
 function Students() {
   return (
     <>
@@ -26,6 +27,7 @@ function Students() {
         </div>
       </div>
     </div>
+    <Contact/>
     </>
   )
 }

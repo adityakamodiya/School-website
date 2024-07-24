@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #contact-wrapper {
-    height: 200px;
+    height: 300px;
     display: flex;
     background: #f6f5f2;
     /* border: 1px solid; */
@@ -33,10 +33,11 @@
 display: flex;
 justify-content: center;align-items: center;
 }
-.right form{
-
+.right form {
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 2px 2px 5px;
+    padding: 2% 5%;
 }
 form input{
     border-radius:5% ;

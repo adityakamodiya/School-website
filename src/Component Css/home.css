@@ -57,7 +57,7 @@
     z-index: 0;
 }
 .Annual-Sports {
-    background-image: url('src/Images/sports.png');
+    background-image: url('../Images/sports.png');
     /* z-index: 0; */
     height: 200px;
     width: 300px;
@@ -65,10 +65,10 @@
     border-radius: 5%;
 }
 .Science-Exhibition{
-    background-image: url('src/Images/scienceex.jpeg');
+    background-image: url('../Images/scienceex.jpeg');
 }
 .Cultural-Fest{
-    background-image: url('src/Images/cultural.jpeg');
+    background-image: url('../Images/cultural.jpeg');
 
 }
 .banners div {

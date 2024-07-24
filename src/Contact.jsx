@@ -8,7 +8,7 @@ function Contact() {
             <h1>Contact Us</h1>
             <p><span>Address: </span>Springdale Public School, 123 Education Lane,Cityville, State, ZIP Code.</p>
             <p><span>Phone: </span> +1 (123) 456-7890</p>
-            <p><span>Email: </span>info@springdale.edu</p>
+            <p><span>Email: </span><a href="https://google.com/mail">info@springdale.edu</a></p>
         </div>
         <div className="right">
             <form action="">

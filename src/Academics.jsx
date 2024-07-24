@@ -3,6 +3,7 @@ import React from 'react'
 import './Component Css/academic.css'
 import Header from './Header'
 import science from './Images/science.jpeg'
+import Contact from './Contact'
 function Academics() {
   return (
     <>
@@ -96,7 +97,7 @@ function Academics() {
         </div>
       </div>
     </div>
-
+<Contact/>
     </>
   )
 }

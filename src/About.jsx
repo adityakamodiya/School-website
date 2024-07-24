@@ -1,8 +1,9 @@
 import React from 'react'
 import './Component Css/about.css'
+import Contact from './Contact'
 
 function About() {
-  return (
+  return (<>
     <div id="about-wrapper">
       <div className="headings">
       <h1>Our School History</h1>
@@ -37,6 +38,9 @@ function About() {
         </div>
       </div>
     </div>
+    <Contact/>
+    </>
+
   )
 }
 

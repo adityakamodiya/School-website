@@ -6,11 +6,12 @@ import michal from './Images/michal.jpg';
 import david from './Images/david.png';
 import sophia from './Images/sophia.jpg';
 import jhonsan from './Images/jhonsan.jpeg';
+import Contact from "./Contact";
 
 export default function Faculty() {
 
 
-  return (
+  return (<>
     <div id="faculty-wrapper">
       <div className="cards">
       <img src={jhonsan} alt="" />
@@ -62,5 +63,7 @@ export default function Faculty() {
       </p>
       </div>
      </div>
+     <Contact/>
+     </>
   );
 }

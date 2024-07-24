@@ -11,6 +11,7 @@ import gallery1 from './Images/galler1.jpeg'
 import gallery2 from './Images/gallery2.jpeg'
 import gallery3 from './Images/gallery3.jpeg'
 import gallery4 from './Images/gallery4.jpeg'
+import Contact from './Contact';
 // import video3 from './Images/video3.mp4';
 function Gallery() {
   return (
@@ -46,6 +47,7 @@ function Gallery() {
       </video>
 </div>
    </div>
+   <Contact/>
    </>
   )
 }
