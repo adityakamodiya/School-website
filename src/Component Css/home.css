@@ -91,3 +91,25 @@
     /* z-index: 0; */
     margin-top: 1%;
 }
+
+@media screen and (max-width:500px) {
+    #home-wrapper h1{
+        font-size: 26px;
+    }
+    #home-wrapper p {
+        font-size: 11px;
+
+        font-weight: 400;
+    }
+    .banners {
+        
+        flex-direction: column;
+       align-items: center;
+    }  
+    .banners div {
+        height: 120px;
+        margin: 1% 0;
+        box-shadow: 1px 4px 3px 2px;
+        width: 120px;
+    }
+}
