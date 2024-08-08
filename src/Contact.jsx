@@ -22,10 +22,10 @@ function Contact() {
             <p><span>Email: </span><a href="https://google.com/mail">info@springdale.edu</a></p>
         </div>
         <div className="right">
-            <form action="">
-                <input type="text"  placeholder='name' name="" id="" />
-                <input type="email"  placeholder='Email' name="" id="" />
-                <textarea name="" placeholder='Message' rows={10} cols={20} id=""></textarea>
+            <form action="" onSubmit={e=> alert('Thanks for submission,We will guide your carrer!')}>
+                <input  required type="text"  placeholder='name' name="" id="" />
+                <input required type="email"  placeholder='Email' name="" id="" />
+                <textarea required name="" placeholder='Message' rows={10} cols={20} id=""></textarea>
                 <input type="submit" className='submit' placeholder='' />
             </form>
         </div>
