@@ -10,7 +10,7 @@ function UncontrolledExample() {
   return (
     <Carousel>
       <Carousel.Item>
-      <div className='slideimg' style={{ height: '400px', border:'1px solid' , backgroundImage:'url('+img1+')' }}>
+      <div className='slideimg' style={{ height: '550px', border:'1px solid' , backgroundImage:'url('+img1+')' }}>
       
     </div>
         <Carousel.Caption>
@@ -19,7 +19,7 @@ function UncontrolledExample() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='slideimg' style={{ height: '400px', border:'1px solid' , backgroundImage:'url('+lib+')' }}>
+      <div className='slideimg' style={{ height: '550px', border:'1px solid' , backgroundImage:'url('+lib+')' }}>
       
     </div>
         <Carousel.Caption>
@@ -28,7 +28,7 @@ function UncontrolledExample() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='slideimg' style={{ height: '400px', border:'1px solid' , backgroundImage:'url('+sci+')' }}>
+      <div className='slideimg' style={{ height: '550px', border:'1px solid' , backgroundImage:'url('+sci+')' }}>
       
     </div>
         <Carousel.Caption>
