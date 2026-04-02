@@ -1,22 +1,21 @@
 import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import Header from './Header'
-import Home from './Home'
-import About from './About'
-import Academics from './Academics'
-import Admissions from './Admissions'
-import Faculty from './Faculty'
-import Students from './Students'
-import Gallery from './Gallery'
-import Map from './Map'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import About from './pages/About'
+import Academics from './pages/Academics'
+import Admissions from './pages/Admissions'
+import Faculty from './pages/Faculty'
+import Students from './pages/Students'
+import Gallery from './pages/Gallery'
+import Map from './pages/Map'
 // import Contact from './Contact'
 function App() {
   return (
-    <>
-
-
+    <div className="min-h-screen bg-slate-50 overflow-x-hidden selection:bg-primary-100 selection:text-primary-900">
     <BrowserRouter>
-    <Header/>
+    <Navbar/>
     <Routes>
       <Route path='/'element={<Home />}></Route>
       <Route path='/About us'element={<About/>}></Route>
@@ -29,10 +28,8 @@ function App() {
       <Route path='Gallery'element={<Gallery/>}></Route>
       <Route path='Address'element={<Map/>}></Route>
     </Routes>
-    </BrowserRouter>
-
-{/* <Home/> */}
-    </>
+      </BrowserRouter>
+    </div>
   )
 }
 
